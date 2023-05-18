@@ -32,15 +32,6 @@ const students = [
   "Hannah",
 ];
 
-const sNumbers = [87, 7, 94, 73, 9, 93, 8];
-
-function sortingNumbers(a, b) {
-  return a - b;
-}
-
-const SoNuPrint = sNumbers.sort(sortingNumbers);
-console.log(SoNuPrint);
-
 const sortingPrint = students.sort();
 for (let i = 0; i < sortingPrint.length; i++) {
   const element = sortingPrint[i];
