@@ -50,3 +50,16 @@ function sortingRollFunction(a, b) {
 const sortingRoll = rollNumber.sort(sortingRollFunction);
 demoo4.innerText = `Ludo random number: ${sortingRoll}`;
 // third problem done
+
+// Forth problem
+function leepYear(year) {
+  if (year % 400 === 0 || (year % 4 === 0) & (year % 100 !== 0)) {
+    return `${year} Is a leep year`;
+  }
+  {
+    return ` ${year} is not a leep year`;
+  }
+}
+
+console.log(leepYear(2028));
+// fourth problem done
