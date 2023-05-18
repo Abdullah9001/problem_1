@@ -62,4 +62,21 @@ function leepYear(year) {
 }
 
 console.log(leepYear(2028));
+
 // fourth problem done
+
+// Fifth problem start
+const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+function countVowel(sentence) {
+  let count = 0;
+  const letters = Array.from(sentence);
+  letters.forEach(function (value, index, array) {
+    if (vowels.includes(value)) {
+      count++;
+    }
+  });
+  return count;
+}
+console.log(countVowel("I love my country very much"));
+
+// Fifth problem done
